@@ -13,3 +13,76 @@
  *= require_tree .
  *= require_self
  */
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: "メイリオ", serif;
+}
+
+#sidebar {
+    width: 20%;
+    float: left;
+    font-size: 20px;
+    line-height: 70px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+#core {
+  width: 70%;
+  float: right;
+  font-size: 15px;
+  line-height: 35px
+}
+
+#header{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#footer {
+  font-size: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+#tweet {
+  background-color: #00acee;
+  border-radius: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  width: 200px;
+  text-align: center;
+}
+
+.tw {
+  text-decoration: none;
+  color: white;
+}
+
+#tweet:hover {
+  background-color: #1e90ff;
+}
